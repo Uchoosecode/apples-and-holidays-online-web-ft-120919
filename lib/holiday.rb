@@ -73,7 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
     
     holidays.select do |holiday, supplies|
      if supplies == "BBQ"
-       holiday_bbq << holiday.keys
+       holiday_bbq << holiday.keys.flatten
      end
 # binding.pry 
 end
