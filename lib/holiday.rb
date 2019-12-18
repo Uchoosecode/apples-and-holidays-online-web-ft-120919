@@ -73,7 +73,7 @@ def all_holidays_with_bbq(holiday_hash)
     
     holidays.collect do |holiday, supplies|
      if supplies == "BBQ"
-        bbq_holidays = holiday.keys.flatten
+        puts holiday
      end
 binding.pry 
 end
