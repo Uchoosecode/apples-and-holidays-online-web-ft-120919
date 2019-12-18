@@ -73,9 +73,9 @@ def all_holidays_with_bbq(holiday_hash)
     
     holidays.select do |holiday, supplies|
      if supplies == "BBQ"
-       holiday_bbq << holiday.to_s
+       holiday_bbq << holiday.keys
      end
-binding.pry 
+# binding.pry 
 end
 end
 end
